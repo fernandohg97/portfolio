@@ -1,0 +1,9 @@
+.paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  color: #262626;
+  line-height: 1.6;
+  text-align: left;
+  text-decoration: none;
+}
