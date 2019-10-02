@@ -5,17 +5,32 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@emotion/core": "^10.0.17",
+    "@emotion/styled": "^10.0.17",
+    "classnames": "^2.2.6",
     "gatsby": "^2.15.28",
     "gatsby-image": "^2.2.23",
+    "gatsby-plugin-emotion": "^4.1.9",
+    "gatsby-plugin-glamor": "^2.1.10",
     "gatsby-plugin-react-helmet": "^3.1.10",
     "gatsby-plugin-sharp": "^2.2.27",
+    "gatsby-plugin-typography": "^2.3.10",
     "gatsby-source-filesystem": "^2.1.28",
     "gatsby-transformer-json": "^2.2.11",
     "gatsby-transformer-sharp": "^2.2.19",
+    "glamor": "^2.20.40",
     "prop-types": "^15.7.2",
     "react": "^16.10.0",
+    "react-burger-menu": "^2.6.11",
     "react-dom": "^16.10.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-media": "^1.10.0",
+    "react-typography": "^0.16.19",
+    "typeface-quicksand": "0.0.71",
+    "typeface-raleway": "0.0.75",
+    "typography": "^0.16.19",
+    "typography-theme-funston": "^0.16.19",
+    "typography-theme-stern-grove": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
