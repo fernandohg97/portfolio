@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import {useStaticQuery, graphql} from "gatsby"
+import Media from 'react-media'
 import Header from '../components/header'
 
 const Layout = ({children}) => {
@@ -22,17 +23,41 @@ const Layout = ({children}) => {
         <meta
           name='keywords'
           content='Fernando, Hernandez, website, personal, minimal'/>
+        <script src="https://kit.fontawesome.com/2c2a6d4195.js" crossorigin="anonymous"></script>
       </Helmet>
       <Header></Header>
-      <div
-        style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0 1.0875rem 1.45rem',
-        paddingTop: 0
+      <Media query={{
+        maxWidth: 599
       }}>
-        {children}
-      </div>
+        {matches => matches
+          ? (
+            <div
+              style={{
+              margin: '0 auto',
+              maxWidth: 960,
+              padding: '0 2rem',
+              paddingTop: 0,
+              marginTop: '80px',
+              textAlign: 'center'
+            }}>
+              {children}
+            </div>
+          )
+          : (
+            <div
+              style={{
+              margin: '0 auto',
+              maxWidth: '100%',
+              padding: '0',
+              maxHeight: '100%',
+              overflow: 'hidden'
+            }}>
+              {children}
+            </div>
+          )
+}
+      </Media>
+
     </div>
   )
 }
