@@ -4,11 +4,11 @@ import Layout from '../layouts/layout'
 import MinimalTitle from '../components/minimal-title'
 import MinimalParagraph from '../components/minimal-paragraph'
 import SocialMedia from '../components/social-media'
+import MinimalButton from '../components/minimal-button'
 import Img from 'gatsby-image'
 import Media from 'react-media'
 
 export default({data}) => {
-  console.log(data)
   return (
     <Layout>
       <Media
@@ -34,10 +34,19 @@ export default({data}) => {
               <div style={{
                 textAlign: 'center'
               }}>
-                <MinimalTitle customStyle={{
+                <MinimalTitle
+                  customStyle={{
                   fontSize: '50px'
-                }} title="Hello, I'm Fernando"></MinimalTitle>
+                }}
+                  title="Hello, I'm Fernando"></MinimalTitle>
                 <MinimalParagraph paragraph={data.site.siteMetadata.description}></MinimalParagraph>
+                <div style={{
+                  marginTop: '2em'
+                }}>
+                  <MinimalButton customStyle={{
+                    fontSize: '14px'
+                  }} to="/contact">Let's build something!</MinimalButton>
+                </div>
                 <div style={{
                   marginTop: '3em'
                 }}>
@@ -65,6 +74,11 @@ export default({data}) => {
               }}>
                 <MinimalTitle title="Hello, I'm Fernando"></MinimalTitle>
                 <MinimalParagraph paragraph={data.site.siteMetadata.description}></MinimalParagraph>
+                <div style={{
+                  marginTop: '2em'
+                }}>
+                  <MinimalButton to="/contact">Let's build something!</MinimalButton>
+                </div>
                 <div style={{
                   marginTop: '3em'
                 }}>
@@ -99,7 +113,12 @@ export default({data}) => {
                 <MinimalTitle title="Hello, I'm Fernando"></MinimalTitle>
                 <MinimalParagraph paragraph={data.site.siteMetadata.description}></MinimalParagraph>
                 <div style={{
-                  marginTop: '10em'
+                  marginTop: '3em'
+                }}>
+                  <MinimalButton to="/contact">Let's build something!</MinimalButton>
+                </div>
+                <div style={{
+                  marginTop: '9em'
                 }}>
                   <SocialMedia></SocialMedia>
                 </div>
@@ -113,10 +132,10 @@ export default({data}) => {
                 <Img fixed={data.file.childImageSharp.fixed} alt="Personal home photo"/>
               </div>
             </div>
-}
+          } 
           </Fragment>
-        )}
-
+        )
+      } 
       </Media>
 
     </Layout>
