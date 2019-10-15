@@ -1,7 +1,6 @@
 const path = require('path')
 
 module.exports = {
-  pathPrefix: '/myWebsite',
   siteMetadata: {
     title: `Fernando Hernandez`,
     description: 'Web developer, UI Designer, photographer and coffee lover.',
