@@ -5,7 +5,7 @@
   color: #3B3B3B;
   font-family: 'Quicksand', sans-serif;
   position: relative;
-  padding: 0.5em 0.25em;
+  padding: 1em 0.25em;
 }
 
 .links:hover {
@@ -20,12 +20,12 @@
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #fff;
+  background: #000;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
 
 .links:hover:after { 
-  width: 100%; 
+  width: 100%;
   left: 0; 
 }

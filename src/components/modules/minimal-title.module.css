@@ -1,8 +1,8 @@
 .title {
   color: #000000;
-  font-size: 60px;
+  font-size: 56px;
   font-weight: 600;
   font-family: 'Raleway', sans-serif;
-  display: flex;
-  flex-wrap: wrap;
+  text-align: center;
+  word-wrap: break-word;
 }
