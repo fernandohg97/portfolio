@@ -69,15 +69,17 @@ const header = () => {
             alignItems: 'center',
             justifyContent: 'center',
             margin: '0',
-            padding: '0'
+            padding: '0',
           }}>
             <header
               style={{
               padding: '2em 0',
-              margin: '0 auto'
+              margin: '0 auto',
             }}>
               <ul style={{
-                listStyle: 'none'
+                listStyle: 'none',
+                margin: 0,
+                padding: 0
               }}>
                 <ListLink
                   customStyle={{

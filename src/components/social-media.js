@@ -54,13 +54,13 @@ const SocialMedia = () => {
       margin: 0,
       padding: 0
     }}>
-      <SocialMediaLink to="/">
+      <SocialMediaLink to="https://www.instagram.com/_ferh97/">
         <i className="fab fa-instagram"></i>
       </SocialMediaLink>
       <SocialMediaLink to="/">
         <i className="far fa-envelope"></i>
       </SocialMediaLink>
-      <SocialMediaLink to="/">
+      <SocialMediaLink to="https://github.com/fernandohg97/">
         <i className="fab fa-github"></i>
       </SocialMediaLink>
       <li
@@ -71,7 +71,7 @@ const SocialMedia = () => {
       }}>
         <Link style={{
           color: '#000'
-        }} to="/">
+        }} to="https://twitter.com/_ferh97">
           <i className="fab fa-twitter"></i>
         </Link>
       </li>
