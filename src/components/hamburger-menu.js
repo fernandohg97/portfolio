@@ -13,9 +13,6 @@ class HamburgerMenu extends React.Component {
       <Menu disableAutoFocus styles={ hamburgerStyle } width={ 250 }>
         <Link className="menu-item" to="/">Home</Link>
         <Link className="menu-item" to="/about">About</Link>
-        <Link className="menu-item" to="/blog">Blog</Link>
-        <Link className="menu-item" to="/projects">Projects</Link>
-        <Link className="menu-item" to="/store">Store</Link>
         <Link className="menu-item" to="/contact">Contact</Link>
       </Menu>
     )
@@ -31,7 +28,7 @@ const hamburgerStyle = {
     top: '36px'
   },
   bmBurgerBars: {
-    background: '#373a47'
+    background: '#262626'
   },
   bmBurgerBarsHover: {
     background: '#a90000'
@@ -41,14 +38,14 @@ const hamburgerStyle = {
     width: '24px'
   },
   bmCross: {
-    background: '#bdc3c7'
+    background: '#FBFBFB'
   },
   bmMenuWrap: {
     position: 'fixed',
     height: '100%'
   },
   bmMenu: {
-    background: '#373a47',
+    background: '#3B3B3B',
     padding: '3em 1.5em 0',
     fontSize: '1.15em'
   },

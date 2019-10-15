@@ -3,7 +3,7 @@ import minimalParagraphStyle from './modules/minimal-paragraph.module.css'
 
 const MinimalParagraph = (props) => {
   return (
-    <p className={minimalParagraphStyle.paragraph}>{props.paragraph}</p>
+    <p className={minimalParagraphStyle.paragraph} style={props.customStyle}>{props.paragraph}</p>
   )
 }
 
