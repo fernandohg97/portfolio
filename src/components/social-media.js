@@ -31,12 +31,12 @@ const SocialMediaLink = props => (
           margin: 0,
           padding: 0
         }}>
-          <Link
+          <a
             style={{
             color: '#000',
             paddingRight: '2.5em'
           }}
-            to={props.to}>{props.children}</Link>
+            href={props.to}>{props.children}</a>
         </li>
       )
 }
@@ -57,7 +57,7 @@ const SocialMedia = () => {
       <SocialMediaLink to="https://www.instagram.com/_ferh97/">
         <i className="fab fa-instagram"></i>
       </SocialMediaLink>
-      <SocialMediaLink to="/">
+      <SocialMediaLink to="mailto:fernando.hdz97@gmail.com">
         <i className="far fa-envelope"></i>
       </SocialMediaLink>
       <SocialMediaLink to="https://github.com/fernandohg97/">
@@ -69,11 +69,11 @@ const SocialMedia = () => {
         margin: 0,
         padding: 0
       }}>
-        <Link style={{
+        <a style={{
           color: '#000'
-        }} to="https://twitter.com/_ferh97">
+        }} href="https://twitter.com/_ferh97">
           <i className="fab fa-twitter"></i>
-        </Link>
+        </a>
       </li>
     </ul>
   )
