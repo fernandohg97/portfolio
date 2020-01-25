@@ -1,12 +1,12 @@
 [
   {
     "projectName": "Coffee API",
-    "description": "Coffee API description",
+    "description": "The API to consume your favorite coffee.",
     "urlCode": "https://github.com/fernandohg97/coffee-api"
   },
   {
     "projectName": "Number system converter",
-    "description": "Number system converter description",
+    "description": "Web app to make conversions between different numerical systems.",
     "urlCode": "https://github.com/fernandohg97/number-system-converter"
   }
 ]
