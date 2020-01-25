@@ -6,7 +6,7 @@ import MinimalParagraph from '../components/minimal-paragraph'
 import Img from 'gatsby-image'
 import Media from 'react-media'
 
-export default({data}) => {
+export default function About({data}) {
   return (
     <Layout>
       <Media
@@ -89,7 +89,7 @@ export default({data}) => {
               <div
                 style={{
                 flex: 1,
-                padding: 0,
+                paddingTop: '5em',
                 margin: 0
               }}>
                 <Img fixed={data.file.childImageSharp.fixed} alt="Personal about photo"/>
