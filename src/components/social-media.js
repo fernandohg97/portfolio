@@ -59,7 +59,7 @@ const SocialMedia = () => {
         <FontAwesomeIcon icon={['fab', 'instagram']} />
       </SocialMediaLink>
       <SocialMediaLink to="mailto:fernando.hdz97@gmail.com">
-        <FontAwesomeIcon icon={['fab', 'envelope']} />
+        <FontAwesomeIcon icon='envelope' />
       </SocialMediaLink>
       <SocialMediaLink to="https://github.com/fernandohg97/">
         <FontAwesomeIcon icon={['fab', 'github']} />

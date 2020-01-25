@@ -1,31 +1,25 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import { slide as Menu } from 'react-burger-menu'
+import {Link} from 'gatsby'
+import {slide as Menu} from 'react-burger-menu'
 
-class HamburgerMenu extends React.Component {
+const HamburgerMenu = () => {
 
-  showSettings(e) {
-    e.preventDefault()
-  }
-
-  render() {
-    return (
-      <Menu disableAutoFocus styles={ hamburgerStyle } width={ 250 }>
-        <Link className="menu-item" to="/">Home</Link>
-        <Link className="menu-item" to="/about">About</Link>
-        <Link className="menu-item" to="/contact">Contact</Link>
-        <Link className="menu-item" to="/blog">Blog</Link>
-        <Link className="menu-item" to="/projects">Projects</Link>
-      </Menu>
-    )
-  }
+  return (
+    <Menu disableAutoFocus styles={hamburgerStyle} width={250}>
+      <Link className="menu-item" to="/">Home</Link>
+      <Link className="menu-item" to="/about">About</Link>
+      <Link className="menu-item" to="/contact">Contact</Link>
+      <Link className="menu-item" to="/blog">Blog</Link>
+      <Link className="menu-item" to="/projects">Projects</Link>
+    </Menu>
+  )
 }
 
 const hamburgerStyle = {
   bmBurgerButton: {
     position: 'relative',
-    width: '36px',
-    height: '30px',
+    width: '32px',
+    height: '26px',
     left: '36px',
     top: '36px'
   },
