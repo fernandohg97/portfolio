@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import Media from 'react-media'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const SocialMediaLink = props => (
   <Media queries={{
@@ -55,13 +56,13 @@ const SocialMedia = () => {
       padding: 0
     }}>
       <SocialMediaLink to="https://www.instagram.com/_ferh97/">
-        <i className="fab fa-instagram"></i>
+        <FontAwesomeIcon icon={['fab', 'instagram']} />
       </SocialMediaLink>
       <SocialMediaLink to="mailto:fernando.hdz97@gmail.com">
-        <i className="far fa-envelope"></i>
+        <FontAwesomeIcon icon={['fab', 'envelope']} />
       </SocialMediaLink>
       <SocialMediaLink to="https://github.com/fernandohg97/">
-        <i className="fab fa-github"></i>
+        <FontAwesomeIcon icon={['fab', 'github']} />
       </SocialMediaLink>
       <li
         style={{
@@ -72,7 +73,7 @@ const SocialMedia = () => {
         <a style={{
           color: '#000'
         }} href="https://twitter.com/_ferh97">
-          <i className="fab fa-twitter"></i>
+          <FontAwesomeIcon icon={['fab', 'medium']} />
         </a>
       </li>
     </ul>

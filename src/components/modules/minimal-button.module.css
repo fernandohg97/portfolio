@@ -1,7 +1,8 @@
 .minimal-button {
   background-color: #000;
-  color: #ffffff;
+  color: #FBFBFB;
   text-decoration: none;
+  display: block;
   padding: 1em;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;

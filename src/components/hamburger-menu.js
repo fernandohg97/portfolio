@@ -14,6 +14,8 @@ class HamburgerMenu extends React.Component {
         <Link className="menu-item" to="/">Home</Link>
         <Link className="menu-item" to="/about">About</Link>
         <Link className="menu-item" to="/contact">Contact</Link>
+        <Link className="menu-item" to="/blog">Blog</Link>
+        <Link className="menu-item" to="/projects">Projects</Link>
       </Menu>
     )
   }

@@ -56,9 +56,21 @@ const header = () => {
                   to="/about">About</ListLink>
                 <ListLink
                   customStyle={{
-                  display: 'inline-block'
+                  display: 'inline-block',
+                  marginRight: '2em'
                 }}
                   to="/contact">Contact</ListLink>
+                <ListLink
+                  customStyle={{
+                  display: 'inline-block',
+                  marginRight: '2em'
+                }}
+                  to="/blog">Blog</ListLink>
+                <ListLink
+                  customStyle={{
+                  display: 'inline-block'
+                }}
+                  to="/projects">Projects</ListLink>
               </ul>
             </header>
           </div>
@@ -69,14 +81,15 @@ const header = () => {
             alignItems: 'center',
             justifyContent: 'center',
             margin: '0',
-            padding: '0',
+            padding: '0'
           }}>
             <header
               style={{
               padding: '2em 0',
-              margin: '0 auto',
+              margin: '0 auto'
             }}>
-              <ul style={{
+              <ul
+                style={{
                 listStyle: 'none',
                 margin: 0,
                 padding: 0
@@ -95,9 +108,21 @@ const header = () => {
                   to="/about">About</ListLink>
                 <ListLink
                   customStyle={{
-                  display: 'inline-block'
+                  display: 'inline-block',
+                  marginRight: '4em'
                 }}
                   to="/contact">Contact</ListLink>
+                <ListLink
+                  customStyle={{
+                  display: 'inline-block',
+                  marginRight: '4em'
+                }}
+                  to="/blog">Blog</ListLink>
+                <ListLink
+                  customStyle={{
+                  display: 'inline-block'
+                }}
+                  to="/projects">Projects</ListLink>
               </ul>
             </header>
           </div>}
