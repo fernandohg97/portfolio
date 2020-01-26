@@ -1,16 +1,10 @@
 import React, {Fragment} from 'react'
 import {Link} from 'gatsby'
 import Media from 'react-media'
-import headerStyle from './modules/header.module.css'
 import HamburgerMenu from '../components/hamburger-menu'
+import headerStyle from './modules/header.module.css'
 
-const ListLink = props => (
-  <li style={props.customStyle}>
-    <Link className={headerStyle.links} to={props.to}>{props.children}</Link>
-  </li>
-)
-
-const header = () => {
+const Header = () => {
   return (
 
     <Media
@@ -134,4 +128,11 @@ const header = () => {
   )
 }
 
-export default header
+const ListLink = props => (
+  <li style={props.customStyle}>
+    <Link className={headerStyle.links} to={props.to}>{props.children}</Link>
+  </li>
+)
+
+
+export default Header

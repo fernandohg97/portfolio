@@ -1,11 +1,11 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import {useStaticQuery, graphql} from "gatsby"
 import Media from 'react-media'
-import Header from '../components/header'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import SEO from '../components/seo'
+import Header from '../components/header'
 
 // Define font awesome icons globally
 library.add(fab, faEnvelope)
@@ -16,22 +16,22 @@ const Layout = ({children}) => {
       query {
         site {
           siteMetadata {
-            title
+            title,
+            description,
+            author,
+            image
           }
         }
       }
     `)
   return (
     <div>
-      <Helmet>
-        <meta charSet='utf-8'/>
-        <title>{data.site.siteMetadata.title}</title>
-        <meta name='description' content='Fernando Hernandez website'/>
-        <meta
-          name='keywords'
-          content='Fernando, Hernandez, website, personal, minimal'/>
-        {/* <script src="https://kit.fontawesome.com/2c2a6d4195.js" crossorigin="anonymous"></script> */}
-      </Helmet>
+      <SEO
+        title={data.site.siteMetadata.title}
+        description={data.site.siteMetadata.description}
+        author={data.site.siteMetadata.author}
+        image={data.site.siteMetadata.image}
+      />
       <Header></Header>
       <Media query={{
         maxWidth: 599

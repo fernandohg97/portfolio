@@ -3,6 +3,8 @@ module.exports = {
     title: `Fernando Hernandez`,
     description: 'Web developer, UI Designer, photographer and coffee lover.',
     author: `@_ferh97`,
+    image: './images/about.jpg',
+    url: 'https://ferh.xyz'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
