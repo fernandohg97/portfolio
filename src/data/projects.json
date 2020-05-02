@@ -8,5 +8,20 @@
     "projectName": "Number system converter",
     "description": "Web app to make conversions between different numerical systems.",
     "urlCode": "https://github.com/fernandohg97/number-system-converter"
+  },
+  {
+    "projectName": "Reservation system",
+    "description": "Web app to set room reservations in a school library.",
+    "urlCode": "https://github.com/fernandohg97/CetysLibrary"
+  },
+  {
+    "projectName": "Store management system",
+    "description": "Web app to manage and control all operations in a grocery store.",
+    "urlCode": "https://github.com/fernandohg97/minimarket-2000"
+  },
+  {
+    "projectName": "Portfolio",
+    "description": "Personal website built with GatsbyJS.",
+    "urlCode": "https://github.com/fernandohg97/portfolio"
   }
 ]
