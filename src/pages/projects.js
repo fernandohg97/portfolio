@@ -99,7 +99,8 @@ const getProjects = (data, mediaQuery = 'notSmall') => {
       if (mediaQuery === 'small' || mediaQuery === 'medium') {
         return (
           <div key={project.node.id} style={{
-            marginTop: '2em'
+            marginTop: '1em',
+            marginBottom: '2.5em'
           }}>
             <MinimalTitle
               customStyle={{
@@ -131,7 +132,8 @@ const getProjects = (data, mediaQuery = 'notSmall') => {
       } else {
         return (
           <div key={project.node.id} style={{
-            marginTop: '1em'
+            marginTop: '1em',
+            marginBottom: '2.5em'
           }}>
             <MinimalTitle
               customStyle={{
