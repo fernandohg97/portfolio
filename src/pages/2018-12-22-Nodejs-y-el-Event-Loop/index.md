@@ -1,7 +1,7 @@
 ---
 path: '/Nodejs-y-el-Event-Loop'
 date: '2018-12-22'
-title: 'Nodejs y el Event Loop.'
+title: 'Nodejs y el Event Loop'
 author: 'Fernando Hernandez'
 description: 'Learn javascript at the backend!'
 ---
