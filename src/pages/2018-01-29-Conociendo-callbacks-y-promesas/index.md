@@ -1,5 +1,5 @@
 ---
-path: '/post-three'
+path: '/Conociendo-callbacks-y-promesas'
 date: '2019-01-29'
 title: 'Conociendo callbacks y promesas'
 author: 'Fernando Hernandez'

@@ -1,5 +1,5 @@
 ---
-path: '/post-one'
+path: '/Un-desarrollador-inexperto-en-un-hackathon'
 date: '2018-12-16'
 title: 'Un desarrollador inexperto en un Hackathon.'
 author: 'Fernando Hernandez'
