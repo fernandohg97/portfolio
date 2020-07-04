@@ -127,7 +127,8 @@ export default function Index({data}) {
                 style={{
                 flex: 1,
                 padding: 0,
-                marginRight: 0
+                marginRight: 0,
+                marginLeft: '6em'
               }}>
                 <Img fixed={data.file.childImageSharp.fixed} alt="Personal home photo"/>
               </div>
@@ -149,9 +150,9 @@ export const query = graphql `
         description
       }
     }
-    file(relativePath: {eq: "about.jpg"}) {
+    file(relativePath: {eq: "about-2.jpg"}) {
       childImageSharp {
-        fixed(width: 1050) {
+        fixed(width: 800) {
           ...GatsbyImageSharpFixed
         }
         fluid(maxWidth: 1000) {
