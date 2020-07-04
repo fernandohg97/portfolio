@@ -38,7 +38,7 @@ export default function About({data}) {
                   customStyle={{
                   fontSize: '40px'
                 }}
-                  title="About"></MinimalTitle>
+                  title="Acerca de mí"></MinimalTitle>
                 <div
                   style={{
                   padding: 0,
@@ -64,7 +64,7 @@ export default function About({data}) {
                 margin: '0 auto',
                 textAlign: 'justify'
               }}>
-                <MinimalTitle title="About"></MinimalTitle>
+                <MinimalTitle title="Acerca de mí"></MinimalTitle>
                 <div
                   style={{
                   padding: 0,
@@ -104,7 +104,7 @@ export default function About({data}) {
                   customStyle={{
                   marginTop: '0.6em'
                 }}
-                  title="About"></MinimalTitle>
+                  title="Acerca de mí"></MinimalTitle>
                 {getAboutParagraphs(data)}
               </div>
             </div>}

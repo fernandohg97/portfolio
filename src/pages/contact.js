@@ -41,11 +41,11 @@ const Contact = ({data}) => {
                   textAlign: 'left',
                   fontSize: '40px'
                 }}
-                  title="Ask me, work together or say hello!"></MinimalTitle>
+                  title="Pregúntame, colaboremos juntos o manda mensaje!"></MinimalTitle>
                 <MinimalParagraph customStyle={{
                   fontSize: '16px'
                 }}
-                  paragraph="Feel free to send me a message through the following social media."></MinimalParagraph>
+                  paragraph="Sientete libre de mandarme algun mensaje por alguno de estos medios."></MinimalParagraph>
                 <div style={{
                   marginTop: '2em'
                 }}>
@@ -76,9 +76,9 @@ const Contact = ({data}) => {
                   customStyle={{
                   textAlign: 'left'
                 }}
-                  title="Ask me, collaborate together or say hello!"></MinimalTitle>
+                  title="Pregúntame, colaboremos juntos o manda mensaje!"></MinimalTitle>
                 <MinimalParagraph
-                  paragraph="Feel free to send me a message through the following social media."></MinimalParagraph>
+                  paragraph="Sientete libre de mandarme algun mensaje por alguno de estos medios."></MinimalParagraph>
                 <div style={{
                   marginTop: '2em'
                 }}>
@@ -110,9 +110,9 @@ const Contact = ({data}) => {
                   customStyle={{
                   textAlign: 'left'
                 }}
-                  title="Ask me, collaborate together or say hello!"></MinimalTitle>
+                  title="Pregúntame, colaboremos juntos o manda mensaje!"></MinimalTitle>
                 <MinimalParagraph
-                  paragraph="Feel free to send me a message through the following social media."></MinimalParagraph>
+                  paragraph="Sientete libre de mandarme algun mensaje por alguno de estos medios."></MinimalParagraph>
                 <div style={{
                   marginTop: '2em'
                 }}>
@@ -144,9 +144,9 @@ const Contact = ({data}) => {
                   customStyle={{
                   textAlign: 'left'
                 }}
-                  title="Ask me, collaborate together or say hello!"></MinimalTitle>
+                  title="Pregúntame, colaboremos juntos o manda mensaje!"></MinimalTitle>
                 <MinimalParagraph
-                  paragraph="Feel free to send me a message through the following social media."></MinimalParagraph>
+                  paragraph="Sientete libre de mandarme algun mensaje por alguno de estos medios."></MinimalParagraph>
                 <div style={{
                   marginTop: '2em'
                 }}>

@@ -37,10 +37,10 @@ const Blog = ({data}) => {
               }}>
                 <MinimalTitle customStyle={{
                   fontSize: '40px'
-                }} title="Welcome to the blog"></MinimalTitle>
+                }} title="Bienvenido al blog"></MinimalTitle>
                 <MinimalParagraph customStyle={{
                   fontSize: '16px'
-                }} paragraph="Find articles, resources and tutorials about programming and photography."></MinimalParagraph>
+                }} paragraph="Encuentra artículos, recursos y tutoriales sobre café, fotografía y emprendimiento."></MinimalParagraph>
                 <div>
                   <Img fluid={data.file.childImageSharp.fluid}/>
                 </div>
@@ -57,8 +57,8 @@ const Blog = ({data}) => {
                 width: '80%',
                 margin: '0 auto'
               }}>
-                <MinimalTitle title="Welcome to the blog"></MinimalTitle>
-                <MinimalParagraph paragraph="Find articles, resources and tutorials about programming and photography."></MinimalParagraph>
+                <MinimalTitle title="Bienvenido al blog"></MinimalTitle>
+                <MinimalParagraph paragraph="Encuentra artículos, recursos y tutoriales sobre café, fotografía y emprendimiento."></MinimalParagraph>
                 <div>
                   <Img fluid={data.file.childImageSharp.fluid}/>
                 </div>
@@ -75,12 +75,12 @@ const Blog = ({data}) => {
                 width: '60%',
                 margin: '0 auto'
               }}>
-                <MinimalTitle title="Welcome to the blog"></MinimalTitle>
+                <MinimalTitle title="Bienvenido al blog"></MinimalTitle>
                 <MinimalParagraph
                   customStyle={{
                   textAlign: 'center'
                 }}
-                  paragraph="Find articles, resources and tutorials about programming and photography."></MinimalParagraph>
+                  paragraph="Encuentra artículos, recursos y tutoriales sobre café, fotografía y emprendimiento."></MinimalParagraph>
                 <div
                   style={{
                   margin: '0 auto',

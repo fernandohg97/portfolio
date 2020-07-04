@@ -7,10 +7,10 @@ const HamburgerMenu = () => {
   return (
     <Menu disableAutoFocus styles={hamburgerStyle} width={250}>
       <Link className="menu-item" to="/">Home</Link>
-      <Link className="menu-item" to="/about">About</Link>
-      <Link className="menu-item" to="/contact">Contact</Link>
+      <Link className="menu-item" to="/about">Acerca</Link>
+      <Link className="menu-item" to="/contact">Contacto</Link>
       <Link className="menu-item" to="/blog">Blog</Link>
-      <Link className="menu-item" to="/projects">Projects</Link>
+      <Link className="menu-item" to="/projects">Proyectos</Link>
     </Menu>
   )
 }

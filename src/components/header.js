@@ -47,13 +47,13 @@ const Header = () => {
                   display: 'inline-block',
                   marginRight: '2em'
                 }}
-                  to="/about">About</ListLink>
+                  to="/about">Acerca</ListLink>
                 <ListLink
                   customStyle={{
                   display: 'inline-block',
                   marginRight: '2em'
                 }}
-                  to="/contact">Contact</ListLink>
+                  to="/contact">Contacto</ListLink>
                 <ListLink
                   customStyle={{
                   display: 'inline-block',
@@ -64,7 +64,7 @@ const Header = () => {
                   customStyle={{
                   display: 'inline-block'
                 }}
-                  to="/projects">Projects</ListLink>
+                  to="/projects">Proyectos</ListLink>
               </ul>
             </header>
           </div>
@@ -99,13 +99,13 @@ const Header = () => {
                   display: 'inline-block',
                   marginRight: '4em'
                 }}
-                  to="/about">About</ListLink>
+                  to="/about">Acerca</ListLink>
                 <ListLink
                   customStyle={{
                   display: 'inline-block',
                   marginRight: '4em'
                 }}
-                  to="/contact">Contact</ListLink>
+                  to="/contact">Contacto</ListLink>
                 <ListLink
                   customStyle={{
                   display: 'inline-block',
@@ -116,7 +116,7 @@ const Header = () => {
                   customStyle={{
                   display: 'inline-block'
                 }}
-                  to="/projects">Projects</ListLink>
+                  to="/projects">Proyectos</ListLink>
               </ul>
             </header>
           </div>}

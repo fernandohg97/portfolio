@@ -2,9 +2,9 @@ module.exports = {
   pathPrefix: "/portfolio",
   siteMetadata: {
     title: `Fernando Hernandez`,
-    description: 'Web developer, UI Designer, photographer and coffee lover.',
+    description: 'Emprendedor, fotógrafo y amante del café.',
     author: `@_ferh97`,
-    image: './images/about.jpg',
+    image: './images/about-2.jpg',
     url: 'https://ferh.xyz'
   },
   plugins: [

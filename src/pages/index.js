@@ -38,7 +38,7 @@ export default function Index({data}) {
                   customStyle={{
                   fontSize: '50px'
                 }}
-                  title="Hello, I'm Fernando"></MinimalTitle>
+                  title="Hola, soy Fernando"></MinimalTitle>
                 <MinimalParagraph paragraph={data.site.siteMetadata.description}></MinimalParagraph>
                 <div style={{
                   marginTop: '2em'
@@ -72,7 +72,7 @@ export default function Index({data}) {
               <div style={{
                 textAlign: 'center'
               }}>
-                <MinimalTitle title="Hello, I'm Fernando"></MinimalTitle>
+                <MinimalTitle title="Hola, soy Fernando"></MinimalTitle>
                 <MinimalParagraph paragraph={data.site.siteMetadata.description}></MinimalParagraph>
                 <div style={{
                   marginTop: '2em'
@@ -110,12 +110,12 @@ export default function Index({data}) {
                 paddingRight: '5em',
                 paddingTop: '5em'
               }}>
-                <MinimalTitle title="Hello, I'm Fernando"></MinimalTitle>
+                <MinimalTitle title="Hola, soy Fernando"></MinimalTitle>
                 <MinimalParagraph paragraph={data.site.siteMetadata.description}></MinimalParagraph>
                 <div style={{
                   marginTop: '3em'
                 }}>
-                  <MinimalButton to="/contact" localLink={true}>Let's build something!</MinimalButton>
+                  <MinimalButton to="/contact" localLink={true}>Construyamos algo!</MinimalButton>
                 </div>
                 <div style={{
                   marginTop: '9em'

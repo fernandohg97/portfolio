@@ -37,12 +37,12 @@ const Projects = ({data}) => {
                   customStyle={{
                   fontSize: '40px'
                 }}
-                  title="Projects"></MinimalTitle>
+                  title="Proyectos"></MinimalTitle>
                 <MinimalParagraph
                   customStyle={{
                   fontSize: '16px'
                 }}
-                  paragraph="Some of my personal and professional projects."></MinimalParagraph>
+                  paragraph="Algo de mis proyectos personales y profesionales."></MinimalParagraph>
                 <div style={{
                   marginTop: '3.5em'
                 }}>
@@ -55,8 +55,8 @@ const Projects = ({data}) => {
                 width: '80%',
                 margin: '0 auto'
               }}>
-                <MinimalTitle title="Projects"></MinimalTitle>
-                <MinimalParagraph paragraph="Some of my personal and professional projects."></MinimalParagraph>
+                <MinimalTitle title="Proyectos"></MinimalTitle>
+                <MinimalParagraph paragraph="Algo de mis proyectos personales y profesionales."></MinimalParagraph>
                 <div style={{
                   marginTop: '3.5em'
                 }}>
@@ -69,8 +69,8 @@ const Projects = ({data}) => {
                 width: '60%',
                 margin: '0 auto'
               }}>
-                <MinimalTitle title="Projects"></MinimalTitle>
-                <MinimalParagraph paragraph="Some of my personal and professional projects."></MinimalParagraph>
+                <MinimalTitle title="Proyectos"></MinimalTitle>
+                <MinimalParagraph paragraph="Algo de mis proyectos personales y profesionales."></MinimalParagraph>
                 {/* Projects Content */}
                 <div style={{
                   marginTop: '3.5em'
