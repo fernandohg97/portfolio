@@ -17,6 +17,7 @@ exports.createPages = ({actions, graphql}) => {
             path
             title
             description
+            status
           }
           excerpt
         }
