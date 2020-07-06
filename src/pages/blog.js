@@ -125,7 +125,8 @@ const getBlogPosts = (data, mediaQuery = 'notSmall') => {
                 textAlign: 'left',
                 fontSize: '26px',
                 margin: 0,
-                padding: 0
+                padding: 0,
+                color: post.node.frontmatter.status !== null ? '#454545' : false
               }}
                 title={post.node.frontmatter.title}></MinimalTitle>
               <span
@@ -174,7 +175,8 @@ const getBlogPosts = (data, mediaQuery = 'notSmall') => {
                 fontSize: '26px',
                 margin: 0,
                 padding: 0,
-                width: '85%'
+                width: '85%',
+                color: post.node.frontmatter.status !== null ? '#454545' : false
               }}
                 title={post.node.frontmatter.title}></MinimalTitle>
               <span
@@ -219,7 +221,8 @@ const getBlogPosts = (data, mediaQuery = 'notSmall') => {
                 textAlign: 'left',
                 fontSize: '26px',
                 margin: 0,
-                padding: 0
+                padding: 0,
+                color: post.node.frontmatter.status !== null ? '#454545' : false
               }}
                 title={post.node.frontmatter.title}></MinimalTitle>
               <span
@@ -265,7 +268,7 @@ export const query = graphql `
         }
       }
     }
-    allMarkdownRemark {
+    allMarkdownRemark(filter: {}, sort: {fields: frontmatter___date, order: DESC}) {
       edges {
         node {
           id
@@ -275,6 +278,7 @@ export const query = graphql `
             path
             title
             description
+            status
           }
           excerpt
         }

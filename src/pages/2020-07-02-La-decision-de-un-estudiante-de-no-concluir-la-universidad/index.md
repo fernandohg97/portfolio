@@ -4,6 +4,7 @@ date: '2020-07-02'
 title: 'La decisión de un estudiante de no concluir la universidad.'
 author: 'Fernando Hernandez'
 description: 'Conoce el porqué tome la decisión de salir de la escuela, incluso estudiando algo que me apasionaba.'
+status: 'activo'
 ---
 
 ### Experiencia personal, enseñanzas y conclusiones.
