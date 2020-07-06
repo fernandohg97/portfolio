@@ -258,12 +258,12 @@ const getBlogPosts = (data, mediaQuery = 'notSmall') => {
 
 export const query = graphql `
   query {
-    file(relativePath: {eq: "blog.png"}) {
+    file(relativePath: {eq: "blogpost.jpg"}) {
       childImageSharp {
-        fixed(width: 550) {
+        fixed(width: 600) {
           ...GatsbyImageSharpFixed
         }
-        fluid(maxWidth: 600) {
+        fluid(maxWidth: 610) {
           ...GatsbyImageSharpFluid
         }
       }

@@ -152,7 +152,7 @@ export const query = graphql `
     }
     file(relativePath: {eq: "about-2.jpg"}) {
       childImageSharp {
-        fixed(width: 800) {
+        fixed(width: 780) {
           ...GatsbyImageSharpFixed
         }
         fluid(maxWidth: 1000) {
