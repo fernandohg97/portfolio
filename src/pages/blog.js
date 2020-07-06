@@ -154,7 +154,7 @@ const getBlogPosts = (data, mediaQuery = 'notSmall') => {
               padding: '0.7em',
               fontWeight: '400'
             }}
-              to={post.node.frontmatter.path}>Read article</MinimalButton>
+              to={post.node.frontmatter.path}>Leer artículo</MinimalButton>
           </div>
         )
       } else if (mediaQuery === 'medium') {
@@ -200,7 +200,7 @@ const getBlogPosts = (data, mediaQuery = 'notSmall') => {
               padding: '0.7em',
               fontWeight: '400'
             }}
-              to={post.node.frontmatter.path}>Read article</MinimalButton>
+              to={post.node.frontmatter.path}>Leer artículo</MinimalButton>
           </div>
         )
       } else {
@@ -245,7 +245,7 @@ const getBlogPosts = (data, mediaQuery = 'notSmall') => {
               padding: '0.7em',
               fontWeight: '400'
             }}
-              to={post.node.frontmatter.path}>Read article</MinimalButton>
+              to={post.node.frontmatter.path}>Leer artículo</MinimalButton>
           </div>
         )
       }

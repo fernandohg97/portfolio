@@ -20,7 +20,7 @@ const ClearButton = () => {
       fontSize: '14px',
       fontFamily: 'QuickSand'
     }}
-      to="/blog">back</Link>
+      to="/blog">Atrás</Link>
   )
 }
 
